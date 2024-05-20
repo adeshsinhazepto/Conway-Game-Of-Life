@@ -2,9 +2,8 @@ package print
 
 import (
 	"gameoflife/pkg/board"
-	"testing"
-
 	"github.com/stretchr/testify/assert"
+	"testing"
 )
 
 func TestPrintBoard(t *testing.T) {
