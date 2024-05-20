@@ -17,7 +17,7 @@ func TestUpdateBoard(t *testing.T) {
 				{1, 1, 1},
 			},
 		}
-		gameBoard := UpdateBoard(game)
+		gameBoard := *UpdateBoard(game)
 		gameBoardexpected := board.GameOfLife{
 			Rows: 3,
 			Cols: 3,
